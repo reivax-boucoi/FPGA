@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/media/user/Data/Documents/FPGA/Nexys3/test_cnt/main.ncd
+OUTFILE=/media/user/Data/Documents/FPGA/Nexys3/test_cnt/main.bit
+FAMILY=Spartan6
+PART=xc6slx16-2csg324
+WORKINGDIR=/media/user/Data/Documents/FPGA/Nexys3/test_cnt
+LICENSE=WebPack
+USER_INFO=211542572_0_0_672
