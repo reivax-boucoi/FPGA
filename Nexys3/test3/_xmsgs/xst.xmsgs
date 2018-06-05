@@ -5,9 +5,6 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="568" delta="new" >"/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.v" Line 39: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">4</arg>&gt; bits.
-</msg>
-
 <msg type="warning" file="HDLCompiler" num="634" delta="old" >"/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.v" Line 13: Net &lt;<arg fmt="%s" index="1">SegReg[7]</arg>&gt; does not have a driver.
 </msg>
 
