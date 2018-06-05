@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="par" timeStamp="Tue Jun  5 10:48:16 2018">
+  <application stringID="par" timeStamp="Tue Jun  5 10:57:42 2018">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -49,7 +49,7 @@
         <column stringID="speed"/>
         <row stringID="row" value="0">
           <item stringID="arch" value="Intel(R) Pentium(R) CPU 2020M @ 2.40GHz"/>
-          <item stringID="speed" value="1659.657 MHz"/>
+          <item stringID="speed" value="1301.463 MHz"/>
         </row>
       </table>
     </section>
@@ -67,7 +67,7 @@
         <item stringID="PAR_CPU_TIME_COMPLETION_ROUTER" value="5 secs "/>
         <item dataType="int" stringID="PAR_UNROUTES" value="0"/>
         <item dataType="float" stringID="PAR_TIMING_SCORE" value="0.000000"/>
-        <item stringID="PAR_REAL_TIME_COMPLETION_PAR" value="7 secs "/>
+        <item stringID="PAR_REAL_TIME_COMPLETION_PAR" value="6 secs "/>
         <item stringID="PAR_CPU_TIME_COMPLETION_PAR" value="6 secs "/>
       </section>
     </task>
@@ -1313,7 +1313,7 @@
           </row>
           <row stringID="row" value="194">
             <item label="Pin&#xA;Number" sort="smart" stringID="Pin_Number" value="L14"/>
-            <item label="Signal&#xA;Name" stringID="Signal_Name" value="seg&lt;1>"/>
+            <item label="Signal&#xA;Name" stringID="Signal_Name" value="seg&lt;6>"/>
             <item label="Pin&#xA;Usage" stringID="Pin_Usage" value="IOB"/>
             <item label="Pin&#xA;Name" sort="smart" stringID="Pin_Name" value="IO_L61P_1"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -1439,7 +1439,7 @@
           </row>
           <row stringID="row" value="211">
             <item label="Pin&#xA;Number" sort="smart" stringID="Pin_Number" value="M13"/>
-            <item label="Signal&#xA;Name" stringID="Signal_Name" value="seg&lt;0>"/>
+            <item label="Signal&#xA;Name" stringID="Signal_Name" value="seg&lt;7>"/>
             <item label="Pin&#xA;Usage" stringID="Pin_Usage" value="IOB"/>
             <item label="Pin&#xA;Name" sort="smart" stringID="Pin_Name" value="IO_L61N_1"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -1453,7 +1453,7 @@
           </row>
           <row stringID="row" value="212">
             <item label="Pin&#xA;Number" sort="smart" stringID="Pin_Number" value="M14"/>
-            <item label="Signal&#xA;Name" stringID="Signal_Name" value="seg&lt;3>"/>
+            <item label="Signal&#xA;Name" stringID="Signal_Name" value="seg&lt;4>"/>
             <item label="Pin&#xA;Usage" stringID="Pin_Usage" value="IOB"/>
             <item label="Pin&#xA;Name" sort="smart" stringID="Pin_Name" value="IO_L53P_1"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -1592,7 +1592,7 @@
           </row>
           <row stringID="row" value="230">
             <item label="Pin&#xA;Number" sort="smart" stringID="Pin_Number" value="N14"/>
-            <item label="Signal&#xA;Name" stringID="Signal_Name" value="seg&lt;2>"/>
+            <item label="Signal&#xA;Name" stringID="Signal_Name" value="seg&lt;5>"/>
             <item label="Pin&#xA;Usage" stringID="Pin_Usage" value="IOB"/>
             <item label="Pin&#xA;Name" sort="smart" stringID="Pin_Name" value="IO_L53N_VREF_1"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -2023,7 +2023,7 @@
           </row>
           <row stringID="row" value="287">
             <item label="Pin&#xA;Number" sort="smart" stringID="Pin_Number" value="T17"/>
-            <item label="Signal&#xA;Name" stringID="Signal_Name" value="seg&lt;7>"/>
+            <item label="Signal&#xA;Name" stringID="Signal_Name" value="seg&lt;0>"/>
             <item label="Pin&#xA;Usage" stringID="Pin_Usage" value="IOB"/>
             <item label="Pin&#xA;Name" sort="smart" stringID="Pin_Name" value="IO_L51P_M1DQ12_1"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -2037,7 +2037,7 @@
           </row>
           <row stringID="row" value="288">
             <item label="Pin&#xA;Number" sort="smart" stringID="Pin_Number" value="T18"/>
-            <item label="Signal&#xA;Name" stringID="Signal_Name" value="seg&lt;6>"/>
+            <item label="Signal&#xA;Name" stringID="Signal_Name" value="seg&lt;1>"/>
             <item label="Pin&#xA;Usage" stringID="Pin_Usage" value="IOB"/>
             <item label="Pin&#xA;Name" sort="smart" stringID="Pin_Name" value="IO_L51N_M1DQ13_1"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -2174,7 +2174,7 @@
           </row>
           <row stringID="row" value="305">
             <item label="Pin&#xA;Number" sort="smart" stringID="Pin_Number" value="U17"/>
-            <item label="Signal&#xA;Name" stringID="Signal_Name" value="seg&lt;5>"/>
+            <item label="Signal&#xA;Name" stringID="Signal_Name" value="seg&lt;2>"/>
             <item label="Pin&#xA;Usage" stringID="Pin_Usage" value="IOB"/>
             <item label="Pin&#xA;Name" sort="smart" stringID="Pin_Name" value="IO_L52P_M1DQ14_1"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -2188,7 +2188,7 @@
           </row>
           <row stringID="row" value="306">
             <item label="Pin&#xA;Number" sort="smart" stringID="Pin_Number" value="U18"/>
-            <item label="Signal&#xA;Name" stringID="Signal_Name" value="seg&lt;4>"/>
+            <item label="Signal&#xA;Name" stringID="Signal_Name" value="seg&lt;3>"/>
             <item label="Pin&#xA;Usage" stringID="Pin_Usage" value="IOB"/>
             <item label="Pin&#xA;Name" sort="smart" stringID="Pin_Name" value="IO_L52N_M1DQ15_1"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -2361,7 +2361,7 @@
     </task>
   </application>
 
-  <application stringID="Par" timeStamp="Tue Jun  5 10:48:17 2018">
+  <application stringID="Par" timeStamp="Tue Jun  5 10:57:42 2018">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -2405,7 +2405,7 @@
         <column stringID="speed"/>
         <row stringID="row" value="0">
           <item stringID="arch" value="Intel(R) Pentium(R) CPU 2020M @ 2.40GHz"/>
-          <item stringID="speed" value="2111.256 MHz"/>
+          <item stringID="speed" value="2079.795 MHz"/>
         </row>
       </table>
     </section>

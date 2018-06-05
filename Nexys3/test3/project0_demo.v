@@ -10,7 +10,7 @@ module project0_demo(
 	 reg divclk = 1'b0;
 	 reg [7:0] caseCounter = 8'b00000000;
 	 reg [7:0] LedReg;
-	 reg [7:0] SegReg;
+	 reg [7:0] SegReg = 8'b00000000;
 	 reg [7:0] SwReg;
 
 ////clock divider////	 
@@ -33,7 +33,9 @@ module project0_demo(
 	
 	 always @(posedge divclk)
 	 LedReg = caseCounter & Sw;
-	 
+	 if(LedReg[7]==1)begin
+		SegReg = SegReg + 1'b1;
+	 end
 	 
 assign Led = LedReg;	
 assign an = 4'hF;
