@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-user::  Tue Jun 05 10:57:38 2018
+user::  Mon Jun 18 10:08:38 2018
 
 par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd
 project0_demo.pcf 
@@ -27,16 +27,16 @@ Device speed data version:  "PRODUCTION 1.23 2013-10-13".
 Device Utilization Summary:
 
 Slice Logic Utilization:
-  Number of Slice Registers:                    39 out of  18,224    1%
-    Number used as Flip Flops:                  39
+  Number of Slice Registers:                    51 out of  18,224    1%
+    Number used as Flip Flops:                  51
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                0
-  Number of Slice LUTs:                         76 out of   9,112    1%
-    Number used as logic:                       74 out of   9,112    1%
-      Number using O6 output only:              46
-      Number using O5 output only:              26
-      Number using O5 and O6:                    2
+  Number of Slice LUTs:                         91 out of   9,112    1%
+    Number used as logic:                       89 out of   9,112    1%
+      Number using O6 output only:              45
+      Number using O5 output only:              34
+      Number using O5 and O6:                   10
       Number used as ROM:                        0
     Number used as Memory:                       0 out of   2,176    0%
     Number used exclusively as route-thrus:      2
@@ -45,12 +45,12 @@ Slice Logic Utilization:
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                    22 out of   2,278    1%
-  Number of MUXCYs used:                        32 out of   4,556    1%
-  Number of LUT Flip Flop pairs used:           76
-    Number with an unused Flip Flop:            37 out of      76   48%
-    Number with an unused LUT:                   0 out of      76    0%
-    Number of fully used LUT-FF pairs:          39 out of      76   51%
+  Number of occupied Slices:                    29 out of   2,278    1%
+  Number of MUXCYs used:                        40 out of   4,556    1%
+  Number of LUT Flip Flop pairs used:           91
+    Number with an unused Flip Flop:            43 out of      91   47%
+    Number with an unused LUT:                   0 out of      91    0%
+    Number of fully used LUT-FF pairs:          48 out of      91   52%
     Number of slice register sites lost
       to control set restrictions:               0 out of  18,224    0%
 
@@ -63,19 +63,22 @@ Slice Logic Distribution:
 IO Utilization:
   Number of bonded IOBs:                        29 out of     232   12%
     Number of LOCed IOBs:                       29 out of      29  100%
+    IOB Flip Flops:                              7
 
 Specific Feature Utilization:
   Number of RAMB16BWERs:                         0 out of      32    0%
   Number of RAMB8BWERs:                          0 out of      64    0%
   Number of BUFIO2/BUFIO2_2CLKs:                 0 out of      32    0%
   Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
-  Number of BUFG/BUFGMUXs:                       1 out of      16    6%
-    Number used as BUFGs:                        1
+  Number of BUFG/BUFGMUXs:                       2 out of      16   12%
+    Number used as BUFGs:                        2
     Number used as BUFGMUX:                      0
   Number of DCM/DCM_CLKGENs:                     0 out of       4    0%
   Number of ILOGIC2/ISERDES2s:                   0 out of     248    0%
   Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     248    0%
-  Number of OLOGIC2/OSERDES2s:                   0 out of     248    0%
+  Number of OLOGIC2/OSERDES2s:                   7 out of     248    2%
+    Number used as OLOGIC2s:                     7
+    Number used as OSERDES2s:                    0
   Number of BSCANs:                              0 out of       4    0%
   Number of BUFHs:                               0 out of     128    0%
   Number of BUFPLLs:                             0 out of       8    0%
@@ -96,16 +99,24 @@ Router effort level (-rl):    High
 Starting initial Timing Analysis.  REAL time: 4 secs 
 Finished initial Timing Analysis.  REAL time: 4 secs 
 
+WARNING:Par:288 - The signal sw<0>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sw<1>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sw<2>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sw<3>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sw<4>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sw<5>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sw<6>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sw<7>_IBUF has no load.  PAR will not attempt to route this signal.
 Starting Router
 
 
-Phase  1  : 281 unrouted;      REAL time: 4 secs 
+Phase  1  : 313 unrouted;      REAL time: 4 secs 
 
-Phase  2  : 245 unrouted;      REAL time: 4 secs 
+Phase  2  : 246 unrouted;      REAL time: 5 secs 
 
-Phase  3  : 16 unrouted;      REAL time: 5 secs 
+Phase  3  : 7 unrouted;      REAL time: 5 secs 
 
-Phase  4  : 16 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  4  : 7 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
 
 Updating file: project0_demo.ncd with current fully routed design.
 
@@ -141,11 +152,14 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net clk | SETUP       |         N/A|     3.484ns|     N/A|           0
-  _BUFGP                                    | HOLD        |     0.804ns|            |       0|           0
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|     3.910ns|     N/A|           0
+  _BUFGP                                    | HOLD        |     0.446ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net div | SETUP       |         N/A|     3.551ns|     N/A|           0
-  clk                                       | HOLD        |     0.441ns|            |       0|           0
+  Autotimespec constraint for clock net div | SETUP       |         N/A|     2.947ns|     N/A|           0
+  clk_BUFG                                  | HOLD        |     0.378ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net slc | SETUP       |         N/A|     2.404ns|     N/A|           0
+  lk                                        | HOLD        |     0.473ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
 
 
@@ -161,7 +175,9 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 6 secs 
+WARNING:Par:283 - There are 8 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+Total REAL time to PAR completion: 7 secs 
 Total CPU time to PAR completion: 6 secs 
 
 Peak Memory Usage:  616 MB
@@ -170,7 +186,7 @@ Placer: Placement generated during map.
 Routing: Completed - No errors found.
 
 Number of error messages: 0
-Number of warning messages: 0
+Number of warning messages: 10
 Number of info messages: 2
 
 Writing design to file project0_demo.ncd

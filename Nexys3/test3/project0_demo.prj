@@ -1,1 +1,2 @@
-verilog work "project0_demo.v"
+verilog work "segdisplay.v"
+verilog work "main.v"

@@ -1,0 +1,20 @@
+Release 14.7 - par P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Mon Jun 18 08:35:03 2018
+
+All signals are completely routed.
+
+WARNING:ParHelpers:362 - There are 8 sourceless signals in this design. This design will not pass the DRC check run by
+   Bitgen.
+
+   Led<0>_OBUF
+   Led<1>_OBUF
+   Led<2>_OBUF
+   Led<3>_OBUF
+   Led<4>_OBUF
+   Led<5>_OBUF
+   Led<6>_OBUF
+   Led<7>_OBUF
+
+
