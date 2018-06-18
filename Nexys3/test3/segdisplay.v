@@ -9,9 +9,9 @@ module segdisplay(
 
 
 	 reg [1:0] muxcnt = 2'b00;
-	 reg [7:0] LedReg;
 	 reg [3:0] anReg;
 	 reg [7:0] SegReg;
+	 reg [7:0] snb;
 	 
 	always @(posedge myclk) 
 	if(muxcnt == 2'b11) begin
@@ -24,23 +24,25 @@ module segdisplay(
 	always @(posedge myclk)	
 	case(muxcnt)
 	2'b00 : begin
-		anReg=4'b1110;
+		anReg=4'b0111;
+		snb=nb%10;
 		end
 	2'b01 : begin
-		anReg=4'b1101;
+		anReg=4'b1110;
+		snb=(nb/10)%10;
 		end
 	2'b10 : begin
-		anReg=4'b1011;
+		anReg=4'b1101;
+		snb=(nb/100)%10;
 		end
 	2'b11 : begin
-		anReg=4'b0111;
+		anReg=4'b1011;
+		snb=(nb/1000)%10;
 		end
 		endcase
 		
-	
-	
-	always @(posedge myclk)	
-   case (nb)
+	always @(posedge myclk) 
+   case (snb)
       4'b0000 : begin
 						SegReg = 8'b00000011;
                end
