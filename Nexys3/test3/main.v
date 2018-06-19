@@ -59,5 +59,5 @@ module project0_demo(
 			num = num + 1'b1;
 		end	
 		
-assign Led = num;
+assign Led = sw;
 endmodule

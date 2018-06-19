@@ -26,9 +26,9 @@ always @(posedge clk)
 	end
 	
 	always @(posedge divclk)
-		if(hcounter == 799) begin
+		if(hcounter == 767) begin
 			hcounter = 0;
-			if(vcounter == 524) begin
+			if(vcounter == 511) begin
 				vcounter = 0;
 			end
 			else begin
@@ -45,6 +45,7 @@ always @(posedge clk)
 	always @(posedge divclk)
 	if(vcounter>35 && vcounter <515 && hcounter >144 && hcounter < 784)begin
 		rval=3'b111;
+		gval=3'b101;
 	end
 	else begin
 		rval=3'b000;

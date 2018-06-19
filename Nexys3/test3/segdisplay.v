@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 
 module segdisplay(
-    input [8:0] nb,
+    input [13:0] nb,
     input myclk,
 	 output [7:0] seg,
 	 output [3:0] an
