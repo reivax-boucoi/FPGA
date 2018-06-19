@@ -1,0 +1,248 @@
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test3/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test_vga/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test_vga/project0_demo.syr" 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test_vga/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test_vga/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test_vga/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test_vga/project0_demo.syr" 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test_vga/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test_vga/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test_vga/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test_vga/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo_preroute.twx project0_demo_map.ncd -o project0_demo_preroute.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test_vga/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test_vga/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 
+xst -intstyle ise -ifn "/media/user/Data/Documents/FPGA/Nexys3/test_vga/project0_demo.xst" -ofn "/media/user/Data/Documents/FPGA/Nexys3/test_vga/project0_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc project0_Nexys3.ucf -p xc6slx16-csg324-2 project0_demo.ngc project0_demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project0_demo_map.ncd project0_demo.ngd project0_demo.pcf 
+par -w -intstyle ise -ol high -mt off project0_demo_map.ncd project0_demo.ncd project0_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml project0_demo.twx project0_demo.ncd -o project0_demo.twr project0_demo.pcf -ucf project0_Nexys3.ucf 
+bitgen -intstyle ise -f project0_demo.ut project0_demo.ncd 

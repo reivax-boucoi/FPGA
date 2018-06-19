@@ -1,0 +1,13 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Jun 19 18:23:05 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "vga_G" LOCATE = SITE "V6" LEVEL 1;
+COMP "vga_B" LOCATE = SITE "T7" LEVEL 1;
+COMP "vga_R" LOCATE = SITE "N7" LEVEL 1;
+COMP "Hsync" LOCATE = SITE "N6" LEVEL 1;
+COMP "Vsync" LOCATE = SITE "P7" LEVEL 1;
+SCHEMATIC END;
+

@@ -1,0 +1,4 @@
+verilog isim_temp "hvsync_generator.v"
+verilog isim_temp "project0_demo.v"
+verilog isim_temp "stimulus.v"
+verilog isim_temp "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
