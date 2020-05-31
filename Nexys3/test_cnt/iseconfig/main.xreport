@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-06-02T21:55:12</DateModified>
+  <DateModified>2019-10-18T10:27:31</DateModified>
   <ModuleName>main</ModuleName>
   <SummaryTimeStamp>2018-06-02T21:47:39</SummaryTimeStamp>
-  <SavedFilePath>/media/user/Data/Documents/FPGA/Nexys3/test_cnt/iseconfig/main.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/media/user/Data/Documents/FPGA/Nexys3/test_cnt</ImplementationReportsDirectory>
+  <SavedFilePath>/home/ise/FPGA/Nexys3/test_cnt/iseconfig/main.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ise/FPGA/Nexys3/test_cnt/</ImplementationReportsDirectory>
   <DateInitialized>2018-06-02T21:19:57</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

@@ -1,3 +1,2 @@
-verilog work "vga.v"
 verilog work "segdisplay.v"
 verilog work "main.v"

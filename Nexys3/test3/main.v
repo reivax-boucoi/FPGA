@@ -1,14 +1,8 @@
 
 module project0_demo(
-   // output [7:0] Led,
 	 input [7:0] sw,
 	 input btns,
 	 output [7:0] seg,
-	 output [2:0] vgaRed,
-	 output [2:0] vgaGreen,
-	 output [1:0] vgaBlue,
-	 output Hsync,
-	 output Vsync,
 	 output [7:0] Led,
 	 output [3:0] an,
     input clk
@@ -26,15 +20,6 @@ module project0_demo(
 	 .seg(seg),
 	.an(an)
 	 );
-	vga vga(
-    .clk(clk),
-    .r(vgaRed),
-   .g(vgaGreen),
-    .b(vgaBlue),
-    .hsync(Hsync),
-    .vsync(Vsync),
-    .rst(btns)
-    );
 	 always @(posedge clk)
 		if(counter == 27'b00000000011111111111111111) begin
 			counter = 27'b000000000000000000000000000;
@@ -44,7 +29,7 @@ module project0_demo(
 			counter = counter + 1'b1;
 		end
 		 always @(posedge divclk)
-		if(scounter == 7'b0001111) begin
+		if(scounter == 7'b0111111) begin
 			scounter = 0;
 			slclk = ~slclk;
 		end
@@ -52,7 +37,7 @@ module project0_demo(
 			scounter = scounter + 1'b1;
 		end	
 	always @(posedge slclk)
-	if(num == 12'b111111111111) begin
+	if(num == 13'b1111111111111) begin
 			num = 0;
 		end
 		else begin

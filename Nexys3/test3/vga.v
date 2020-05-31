@@ -1,20 +1,4 @@
-module vga(
-    input clk,
-    output [2:0] r,
-    output [2:0] g,
-    output [1:0] b,
-    output hsync,
-    output vsync,
-    input rst
-    );
-	 
-	 reg [1:0] clkcnt = 2'b00;
-	 reg [10:0] hcounter = 0;
-	 reg [10:0] vcounter = 0;
-	 reg [2:0] rval = 0;
-	 reg [2:0] gval = 0;
-	 reg [1:0] bval = 0;
-	 reg divclk = 0;
+
 	 
 always @(posedge clk) 
 	if(clkcnt == 2'b11) begin

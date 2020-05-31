@@ -1,0 +1,2 @@
+vhdl work "DisplayController.vhd"
+vhdl work "PmodENC.vhd"

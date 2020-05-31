@@ -1,0 +1,37 @@
+xst -intstyle ise -ifn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.xst" -ofn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.syr" 
+xst -intstyle ise -ifn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.xst" -ofn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.syr" 
+xst -intstyle ise -ifn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.xst" -ofn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 PmodENC.ngc PmodENC.ngd  
+xst -intstyle ise -ifn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.xst" -ofn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 PmodENC.ngc PmodENC.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PmodENC_map.ncd PmodENC.ngd PmodENC.pcf 
+par -w -intstyle ise -ol high -mt off PmodENC_map.ncd PmodENC.ncd PmodENC.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PmodENC.twx PmodENC.ncd -o PmodENC.twr PmodENC.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f PmodENC.ut PmodENC.ncd 
+xst -intstyle ise -ifn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.xst" -ofn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.syr" 
+xst -intstyle ise -ifn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.xst" -ofn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.syr" 
+xst -intstyle ise -ifn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.xst" -ofn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.syr" 
+xst -intstyle ise -ifn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.xst" -ofn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.syr" 
+xst -intstyle ise -ifn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.xst" -ofn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.syr" 
+xst -intstyle ise -ifn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.xst" -ofn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.syr" 
+xst -intstyle ise -ifn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.xst" -ofn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 PmodENC.ngc PmodENC.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PmodENC_map.ncd PmodENC.ngd PmodENC.pcf 
+par -w -intstyle ise -ol high -mt off PmodENC_map.ncd PmodENC.ncd PmodENC.pcf 
+xst -intstyle ise -ifn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.xst" -ofn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 PmodENC.ngc PmodENC.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PmodENC_map.ncd PmodENC.ngd PmodENC.pcf 
+par -w -intstyle ise -ol high -mt off PmodENC_map.ncd PmodENC.ncd PmodENC.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PmodENC.twx PmodENC.ncd -o PmodENC.twr PmodENC.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f PmodENC.ut PmodENC.ncd 
+xst -intstyle ise -ifn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.xst" -ofn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.syr" 
+xst -intstyle ise -ifn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.xst" -ofn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.syr" 
+xst -intstyle ise -ifn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.xst" -ofn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.syr" 
+xst -intstyle ise -ifn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.xst" -ofn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 PmodENC.ngc PmodENC.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PmodENC_map.ncd PmodENC.ngd PmodENC.pcf 
+par -w -intstyle ise -ol high -mt off PmodENC_map.ncd PmodENC.ncd PmodENC.pcf 
+bitgen -intstyle ise -f PmodENC.ut PmodENC.ncd 
+xst -intstyle ise -ifn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.xst" -ofn "/home/ise/FPGA/Nexys3/PmodENC_Source/PmodENC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 PmodENC.ngc PmodENC.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PmodENC_map.ncd PmodENC.ngd PmodENC.pcf 
